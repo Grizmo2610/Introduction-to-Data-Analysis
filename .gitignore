@@ -1,0 +1,76 @@
+# ------------------------
+# Python
+# ------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cài đặt môi trường ảo
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Thư mục build, dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Các file cache, log
+*.log
+*.sqlite3
+*.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# VSCode
+.vscode/
+
+# DataSpell
+.ds_store/
+
+# ------------------------
+# R
+# ------------------------
+# Thư mục lưu workspace và history
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.Rapp.history
+
+# Các thư mục build / packages
+.Rbuildignore
+.Rcheck/
+packrat/
+renv/library/
+renv/staging/
+
+# ------------------------
+# Hệ điều hành
+# ------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
