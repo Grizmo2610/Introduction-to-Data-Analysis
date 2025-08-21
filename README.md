@@ -1,9 +1,13 @@
 # 🚀 Nhập môn Phân tích Dữ liệu - Lập trình R
 
 📌 **Trường:** Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội
+
 📌 **Khoa:** Toán - Cơ - Tin học
+
 📌 **Học phần:** *Nhập môn Phân tích Dữ liệu*
+
 📌 **Số tín chỉ:** `02`
+
 📌 **Mã học phần:** `HUS1023`
 
 ---
@@ -11,6 +15,7 @@
 ## ✍️ Tác giả
 
 👨‍💻 **Tên:** Hoàng Tuấn Tú (*Grizmo*)
+
 📧 **Email:** [hoangtuantu893@gmail.com](mailto:hoangtuantu893@gmail.com)
 
 ---
