@@ -34,10 +34,9 @@
 
 10. Viết một chương trình tổng hợp:
 
-    * Nhập vào một vector số.
-    * Kiểm tra từng phần tử:
-
-      * Nếu > 0 in `"Dương"`
-      * Nếu < 0 in `"Âm"`
-      * Nếu = 0 in `"Bằng 0"`
-    * Tính tổng các số dương bằng vòng lặp `for`.
+* Nhập vào một vector số.
+* Kiểm tra từng phần tử:
+   * Nếu > 0 in `"Dương"`
+   * Nếu < 0 in `"Âm"`
+   * Nếu = 0 in `"Bằng 0"`
+* Tính tổng các số dương bằng vòng lặp `for`.
