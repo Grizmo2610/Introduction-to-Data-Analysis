@@ -1,4 +1,6 @@
 # **BÀI TẬP CHƯƠNG II**
+> Trong phần này, sẽ có một số bài sử dụng ngẫu nhiên để lấy kết quả. Và vì là ngẫu nhiên nên mỗi lần sẽ đều khác nhau.Để hạn chế tình huống này chúng có thể dùng `set.seed(42)` để các kết quả random có thể lặp lại được. Lưu ý `set.seed()` đặt các kết quả ngẫu nhiên theo thứ tự. Tức là lần gọi ngẫu nhiên đầu tiên sau khi `set.seed` sẽ luôn cho kết quả giống nhau, nhưng nếu ta thay đổi chạy câu lệnh thứ 2 trước câu lệnh thứ 1 thì sẽ có kết quả khác. Số 42 được gọi là *seed* ta có thể thay đổi bất cứ số nào tùy thích miễn là dễ nhớ.
+
 
 ## **Dễ**
 
@@ -12,7 +14,7 @@
 
 4. Viết hàm `tong_nhieu_so(...)` tính tổng nhiều số bất kỳ. Thử với các số `1,2,3,4,5`.
 
-5. Tạo ma trận `mat_a <- matrix(c(2, 1, 3, 4), 2, 2)`. Tính chuyển vị `t(mat_a)` và định thức `det(mat_a)`.
+5. Tạo ma trận `mat_a <- matrix(c(2, 1, 3, 4), 2, 2)`. Tính chuyển vị và định thức.
 
 6. Sinh 10 số ngẫu nhiên từ phân phối chuẩn với `mean = 0.5`, `sd = 0.5` và tính trung bình của chúng bằng `mean()`.
 
@@ -26,7 +28,7 @@
 
 ## **Rất khó**
 
-10. Viết hàm `phan_tich_vector(v)` nhận một vector số nguyên liên tiếp. Hàm trả về list gồm:
+10. Viết hàm `phan_tich_vector(v)` nhận một vector số nguyên. Hàm trả về list gồm:
 
 * vector các số chẵn
 * vector các số lẻ
