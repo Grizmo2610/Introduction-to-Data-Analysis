@@ -18,7 +18,7 @@
 
 # **Mức Khó**
 
-7. Tạo vector `colors <- c("red","blue","red","green","blue","green","red")`. Chuyển thành factor và đếm số lần xuất hiện của mỗi màu.
+7. Tạo vector `colors <- c("red","blue","red","green","blue","green","red")`.
 
 8. Tạo ma trận 3x3 từ vector `c(1:9)`. Lấy phần tử hàng 2 cột 3, toàn bộ hàng 1, và cột 2 & 3.
 
@@ -31,4 +31,3 @@
 * Chia vector thành hai vector: số chẵn và số lẻ.
 * Tạo ma trận 2x5 từ vector số chẵn.
 * Tính bình phương các phần tử ma trận.
-* Chuyển kết quả thành list gồm các vector mỗi hàng của ma trận.
