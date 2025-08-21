@@ -1,37 +1,34 @@
-## **Phần 1: Vector và toán tử (Bài 1–6, dễ)**
+# **BÀI TẬP CHƯƠNG I**
 
-1. Tạo một vector `x` gồm các số từ 1 đến 10 và in ra.
-2. Tính tổng các số chẵn trong vector `x`.
-3. Tạo vector `y = c(2, 4, 6, 8, 10)` và tính `x + y`.
-4. Tính bình phương của tất cả phần tử trong vector `x` bằng **vector hóa**.
-5. Lọc các phần tử lớn hơn 5 trong vector `x` bằng toán tử logic.
-6. Kiểm tra xem **tất cả** phần tử trong vector `x` có lớn hơn 0 không.
+# **Mức Dễ**
 
----
+1. Tạo vector `x` gồm các số từ 1 đến 10. Tính tổng, hiệu, tích và thương của tất cả phần tử với số 2.
 
-## **Phần 2: Vòng lặp và điều kiện (Bài 7–12, trung bình)**
+2. Cho vector `a <- c(TRUE, FALSE, TRUE)` và `b <- c(FALSE, TRUE, TRUE)`. Tính `a & b`, `a | b` và `!a`.
 
-7. Viết vòng lặp `for` in ra các số lẻ từ 1 đến 15.
-8. Viết vòng lặp `while` tính tổng các số từ 1 đến 20.
-9. Dùng `repeat` để in ra các bình phương của số từ 1 đến 5.
-10. Viết vòng lặp `for` in ra “Dương”, “Âm” hoặc “Bằng 0” cho các phần tử của vector `c(-2, 0, 3, -1, 5)`.
-11. Dùng `ifelse()` để biến một vector số thành vector ký tự “Dương” / “Không dương”.
-12. Viết vòng lặp `for` kết hợp `next` và `break` để in các số từ 1 đến 10, bỏ qua số 5 và dừng khi đến số 8.
+3. Cho vector `x <- c(3, 7, 10, 15)`. Kiểm tra các phần tử nào lớn hơn 5, nhỏ hơn hoặc bằng 10, và bằng 7.
 
----
+# **Mức Trung bình**
 
-## **Phần 3: List và ma trận (Bài 13–16, trung bình – khó)**
+4. Tạo vector `v <- c(5, 10, 15, 20, 25)`. Lấy phần tử thứ 2, phần tử cuối cùng, và loại bỏ phần tử thứ 3.
 
-13. Tạo một list chứa: một vector, một ma trận 2×2, và một giá trị số.
-14. Truy cập phần tử thứ 2 trong list và in ra.
-15. Tạo ma trận 3×3 với các số từ 1 đến 9, tính **ma trận chuyển vị**.
-16. Tính **nghịch đảo** của ma trận 2×2 `matrix(c(2,1,3,4),2,2)`.
+5. Cho `x <- c(1, 2, 3, 4)` và `y <- c(5, 6)`. Thực hiện phép cộng và phép nhân theo vector hóa.
 
----
+6. Tạo một list chứa tên của bạn, tuổi và điểm trung bình môn R. Truy xuất từng phần tử từ list.
 
-## **Phần 4: Vector hóa nâng cao và hàm (Bài 17–20, khó)**
+# **Mức Khó**
 
-17. Tạo vector `x = 1:10` và tính sin, cos, tan của tất cả phần tử bằng **vector hóa**.
-18. Viết hàm tính tổng bình phương các số dương trong một vector.
-19. Sinh 10 số ngẫu nhiên từ phân phối chuẩn với `rnorm()`, in ra các số lớn hơn trung bình.
-20. Tạo ma trận 3×3, tính **giá trị riêng** và **vector riêng** bằng hàm `eigen()`.
+7. Tạo vector `colors <- c("red","blue","red","green","blue","green","red")`. Chuyển thành factor và đếm số lần xuất hiện của mỗi màu.
+
+8. Tạo ma trận 3x3 từ vector `c(1:9)`. Lấy phần tử hàng 2 cột 3, toàn bộ hàng 1, và cột 2 & 3.
+
+9. Tạo ma trận `A <- matrix(1:4, 2, 2)` và `B <- matrix(5:8, 2, 2)`. Thực hiện cộng, trừ, nhân theo từng phần tử và nhân ma trận.
+
+# **Mức Rất khó**
+
+10. Tạo vector số nguyên từ 1 đến 20.
+
+* Chia vector thành hai vector: số chẵn và số lẻ.
+* Tạo ma trận 2x5 từ vector số chẵn.
+* Tính bình phương các phần tử ma trận.
+* Chuyển kết quả thành list gồm các vector mỗi hàng của ma trận.

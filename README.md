@@ -65,6 +65,21 @@ Toàn bộ mã nguồn và notebook được lưu trong các thư mục chính:
  |
  └── ...
 ```
+---
+
+## Nội dung các Chương
+
+### Chương 0 - [Chapter 0](Chapters/Chapter0.ipynb): Giới thiệu về R và cài đặt R
+
+### Chương 1 - [Chapter 1](Chapters/Chapter1.ipynb): Các toán tử và các cấu trúc dữ liệu trong R
+
+### Chương 2 -[Chapter 2](Chapters/Chapter2.ipynb): Hàm trong R
+
+### Chương 3 - [Chapter 3](Chapters/Chapter3.ipynb): Cấu trúc điều khiển trong R
+
+### Chương 4 - [Chapter 4](#): Làm việc với dữ liệu trong R
+
+### Chương 5 - [Chapter 5](#): Graph và Chart - Trực quan hóa dữ liệu trong R
 
 ---
 
