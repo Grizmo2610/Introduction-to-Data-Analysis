@@ -19,6 +19,7 @@ Mỗi dòng tương ứng một đơn hàng, có thể dùng để phân tích d
 
 ## **Được sử dụng trong bài**
 * [Chapter 4 - Nhập xuất dữ liệu](../Chapters/Chapter4.ipynb#nhập-xuất-dữ-liệu)
+* [Exercise 4 - Bài 4, 5, 6](../Exercises/Exercise4/Exercise4.md)
 
 ---
 
@@ -44,6 +45,8 @@ Dữ liệu `WHO1.xlsx` chứa thông tin các quốc gia với các cột:
 
 ## **Được sử dụng trong bài**
 * [Chapter 4 - Nhập xuất dữ liệu](../Chapters/Chapter4.ipynb#nhập-xuất-dữ-liệu)
+* [Exercise 4 - Bài 7, 8, 9](../Exercises/Exercise4/Exercise4.md)
+
 
 ---
 
@@ -70,6 +73,42 @@ Dữ liệu `mtcars.csv` và `mtcars.xlsx` chứa thông tin đặc tính và hi
 
 ## **Được sử dụng trong bài**
 * [Chapter 4 - Nhập xuất dữ liệu](../Chapters/Chapter4.ipynb#nhập-xuất-dữ-liệu)
+
+---
+# **Bộ dữ liệu: `melb_housing.csv`**
+
+---
+
+## **Mô tả**
+
+Dữ liệu `melb_housing.csv` chứa thông tin về giá nhà và đặc tính của bất động sản tại thành phố Melbourne với các cột:
+
+* **Suburb**: Tên khu vực/ngoại ô
+* **Address**: Địa chỉ cụ thể của bất động sản
+* **Rooms**: Số lượng phòng
+* **Type**: Loại bất động sản (h = house, u = unit, t = townhouse, …)
+* **Price**: Giá bán bất động sản (AUD)
+* **Method**: Phương thức bán (S = Sold, SP = Sold prior, PI = Passed in, VB = Vendor bid, …)
+* **SellerG**: Tên công ty/cá nhân môi giới
+* **Date**: Ngày bán
+* **Distance**: Khoảng cách từ bất động sản đến trung tâm thành phố (km)
+* **Postcode**: Mã bưu điện của khu vực
+* **Bedroom2**: Số phòng ngủ (ghi nhận)
+* **Bathroom**: Số phòng tắm
+* **Car**: Sức chứa bãi đỗ xe (số xe hơi)
+* **Landsize**: Diện tích đất (m²)
+* **BuildingArea**: Diện tích xây dựng (m²)
+* **YearBuilt**: Năm xây dựng
+* **CouncilArea**: Khu vực quản lý hành chính
+* **Lattitude**: Vĩ độ vị trí bất động sản
+* **Longtitude**: Kinh độ vị trí bất động sản
+* **Regionname**: Tên vùng/khu vực lớn (ví dụ: Northern Metropolitan)
+* **Propertycount**: Tổng số bất động sản được ghi nhận trong khu vực
+
+---
+
+## **Được sử dụng trong bài**
+
 
 ---
 
