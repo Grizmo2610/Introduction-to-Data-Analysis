@@ -1,7 +1,5 @@
 # **Bộ dữ liệu: `Product.csv`**
 
----
-
 ##  **Mô tả**
 
 Dữ liệu `Product.csv` chứa thông tin đơn hàng với các cột:
@@ -19,13 +17,11 @@ Mỗi dòng tương ứng một đơn hàng, có thể dùng để phân tích d
 
 ## **Được sử dụng trong bài**
 * [Chapter 4 - Nhập xuất dữ liệu](../Chapters/Chapter4.ipynb#nhập-xuất-dữ-liệu)
-* [Exercise 4 - Bài 4, 5, 6](../Exercises/Exercise4/Exercise4.md)
+* [Exercise 4 - Bài 4](../Exercises/Exercise4/Exercise4.md)
 
 ---
 
 # **Bộ dữ liệu: `WHO1.xlsx`**
-
----
 
 ## **Mô tả**
 Dữ liệu `WHO1.xlsx` chứa thông tin các quốc gia với các cột:
@@ -75,13 +71,11 @@ Dữ liệu `mtcars.csv` và `mtcars.xlsx` chứa thông tin đặc tính và hi
 * [Chapter 4 - Nhập xuất dữ liệu](../Chapters/Chapter4.ipynb#nhập-xuất-dữ-liệu)
 
 ---
-# **Bộ dữ liệu: `melb_housing.csv`**
-
----
+# **Bộ dữ liệu: `melb_data.csv`**
 
 ## **Mô tả**
 
-Dữ liệu `melb_housing.csv` chứa thông tin về giá nhà và đặc tính của bất động sản tại thành phố Melbourne với các cột:
+Dữ liệu `melb_data.csv` chứa thông tin về giá nhà và đặc tính của bất động sản tại thành phố Melbourne với các cột:
 
 * **Suburb**: Tên khu vực/ngoại ô
 * **Address**: Địa chỉ cụ thể của bất động sản
@@ -104,6 +98,22 @@ Dữ liệu `melb_housing.csv` chứa thông tin về giá nhà và đặc tính
 * **Longtitude**: Kinh độ vị trí bất động sản
 * **Regionname**: Tên vùng/khu vực lớn (ví dụ: Northern Metropolitan)
 * **Propertycount**: Tổng số bất động sản được ghi nhận trong khu vực
+
+---
+
+## **Được sử dụng trong bài**
+
+* [Chapter 4 - Xử lý dữ liệu bị thiếu](../Chapters/Chapter4.ipynb)
+* [Exercise 4 - Bài 5](../Exercises/Exercise4/Exercise4.md)
+
+---
+
+# **Bộ dữ liệu: `.csv`**
+
+---
+
+## **Mô tả**
+Dữ liệu `.csv` chứa thông tin:
 
 ---
 
