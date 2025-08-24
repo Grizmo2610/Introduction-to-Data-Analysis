@@ -21,7 +21,10 @@ gender <- sample(c("Nam", "Nữ"), 1000, replace = TRUE)
 * `1000`: số lượng mẫu sinh ra
 * `replace = TRUE`: cho phép trùng lặp khi chọn.
 
+> Hàm `unique(x)` dùng để trả về 1 vector chứa các giá trị riêng biệt và không lặp lại.
 
+
+>> `colnames(data)` để lấy ra các cột của `data` tương ứng. Ta cũng có thể đổi tên các cột bằng cách gán `colnames(data) = <vector>`
 
 ### **Mức dễ**
 
@@ -59,31 +62,42 @@ gender <- sample(c("Nam", "Nữ"), 1000, replace = TRUE)
 
 4. Dữ liệu **Product.csv** có 24 hàng và 8 biến, đọc tệp đã cho và đặt tên nó là `data`. Thực hiện:
    * Trích ra bộ dữ liệu con gồm các mặt hàng được bán tại thành phố `Boston` và đặt tên nó là `data1`.
-   * Tính tổng giá và trung bình số lượng của mặt hàng `Carrot` bán tại thành phố `Boston`.
-   * Tìm thành phố có tổng doanh thu (`TotalPrice`) cao nhất.
+   * Tính tổng thu nhập (`TotalPrice`) và trung bình số lượng của mặt hàng `Carrot` bán tại thành phố `Boston`.
    * Tính tổng số lượng sản phẩm theo từng thành phố.
+   * Tìm thành phố có tổng doanh thu (`TotalPrice`) cao nhất.
    * Tìm sản phẩm nào chỉ xuất hiện ở đúng một thành phố.
 
 5. Từ dữ liệu **melb_data.csv**, thực hiện:
    * Thay thế các dữ liệu NA ở cột `Car` bằng giá trị 0
    * Thay thế dữ liệu NA ở cột `BuildingArea` bằng giá trị trung bình và cột `YearBuilt` bằng giá trị ngẫu nhiên theo phân bố đều với `min` và `max` của cột `YearBuilt` (Làm tròn thành số nguyên)
    * Trích xuất các căn giá có giá rẻ nhất trong các khu vực (`Regionname`)
-   * 
 
-6. Từ dữ liệu `AHCAvote2017` trong Gói `Stat2Data`
+6. Từ dữ liệu **AHCAvote2017** trong Gói `Stat2Data`
    * Hãy tìm số thành viên của quốc hội theo từng bang
-   * Xây dựng bảng tần số giữa kết quả phiếu bầu đạo luật này (`AHCVote`) với kết quả bầu tổng thống Trump trước đó
    * Hãy tìm tổng số thành viên theo đảng Dân chủ (`Democrat`) và đảng Cộng hòa (`Republican`)
-   * Hãy tìm khu vực có tỷ lệ người dân không có bảo hiểm y tế ít nhất và nhiều nhất năm 2013 và 2015
+   * Hãy tìm khu vực (`STATE`) có tỷ lệ người dân không có bảo hiểm y tế ít nhất và nhiều nhất năm 2013 và 2015 (Mỗi dòng tương ứng với 1 đơn vị. Tất cả các dòng có chung giá trị `STATE` được tính là 1 khu vực. Tỷ lệ khu vực ở đây sẽ là trung bình giữa các đơn vị)
 
 ---
 
 ### **Mức khó**
 
 7. Từ dữ liệu **WHO1.xlsx**, thực hiện:
-   * Nhập dữ liệu vào R, thay thế giá trị trống bằng median của Châu lục/ Vùng kinh tế.
+   * Nhập dữ liệu vào R, thay thế giá trị trống bằng **mean** của Châu lục/ Vùng kinh tế.
    * Tính tuổi thọ trung bình của toàn bộ dữ liệu và So sánh tuổi thọ trung bình của nhóm "quốc gia phát triển" và "chưa phát triển".
-   * Trích dữ liệu của các nước `Vietnam`, `Thailand`, `Singapore` và so sánh tỷ lệ sinh sản.
+   * Trích dữ liệu của các nước `Vietnam`, `Thailand`, `Singapore` và so sánh tỷ lệ sinh sản. (Gợi ý: Sử dụng `data$Country` để xem tên tất cả các nước trong dữ liệu)
    * Viết một hàm tìm ra 5 quốc gia có tuổi thọ cao nhất.
 
-8. Với dữ liệu **WHO1.xlsx**:
+|-------------------------|-----------------|--------------------------|
+| Nhóm quốc gia           | GNI/người (USD) | Diễn giải chung          |
+|-------------------------|-----------------|--------------------------|
+| Thu nhập thấp           | ≤ 1.145         | Quốc gia kém phát triển  |
+| Thu nhập trung bình thấp| 1.146 – 4.515   | Đang phát triển (thấp)   |
+| Thu nhập trung bình cao | 4.516 – 14.005  | Đang phát triển (cao)    |
+| Thu nhập cao            | ≥ 14.006        | Quốc gia phát triển      |
+|-------------------------|-----------------|--------------------------|
+
+8. Từ dữ liệu **BirdNest** trong `Stat2Data`:
+   * Xây dựng bảng tần số về số loài chim theo từng loại tổ (`Nesttype`)
+   * Loài chim nào có chiều dài trung bình lớn nhất, nhỏ nhất?
+   * Xây dựng bảng tần số về vị trí làm tổ của các loài chim
+   * Hãy tính thời gian trung bình các loài chim này chăm sóc chim non trong tổ
