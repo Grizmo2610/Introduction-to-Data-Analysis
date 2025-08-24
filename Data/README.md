@@ -1,3 +1,28 @@
+- [**Bộ dữ liệu: `Product.csv`**](#bộ-dữ-liệu-productcsv)
+  - [**Mô tả**](#mô-tả)
+  - [**Được sử dụng trong bài**](#được-sử-dụng-trong-bài)
+- [**Bộ dữ liệu: `WHO1.xlsx`**](#bộ-dữ-liệu-who1xlsx)
+  - [**Mô tả**](#mô-tả-1)
+  - [**Được sử dụng trong bài**](#được-sử-dụng-trong-bài-1)
+- [**Bộ dữ liệu: `mtcars.csv` và `mtcars.xlsx`**](#bộ-dữ-liệu-mtcarscsv-và-mtcarsxlsx)
+  - [**Mô tả**](#mô-tả-2)
+  - [**Được sử dụng trong bài**](#được-sử-dụng-trong-bài-2)
+- [**Bộ dữ liệu: `melb_data.csv`**](#bộ-dữ-liệu-melb_datacsv)
+  - [**Mô tả**](#mô-tả-3)
+  - [**Được sử dụng trong bài**](#được-sử-dụng-trong-bài-3)
+- [**Bộ dữ liệu: `AHCAvote2017.csv`**](#bộ-dữ-liệu-ahcavote2017csv)
+  - [**Mô tả**](#mô-tả-4)
+  - [**Được sử dụng trong bài**](#được-sử-dụng-trong-bài-4)
+- [**Bộ dữ liệu: `BirdNest.csv`**](#bộ-dữ-liệu-birdnestcsv)
+  - [**Mô tả**](#mô-tả-5)
+  - [**Được sử dụng trong bài**](#được-sử-dụng-trong-bài-5)
+- [**Bộ dữ liệu: `iris`**](#bộ-dữ-liệu-iris)
+  - [**Mô tả**](#mô-tả-6)
+  - [**Được sử dụng trong bài**](#được-sử-dụng-trong-bài-6)
+- [**Bộ dữ liệu: \`\`**](#bộ-dữ-liệu-)
+  - [**Mô tả**](#mô-tả-7)
+  - [**Được sử dụng trong bài**](#được-sử-dụng-trong-bài-7)
+
 # **Bộ dữ liệu: `Product.csv`**
 
 ##  **Mô tả**
@@ -138,47 +163,44 @@ Dữ liệu `AHCAvote2017.csv` chứa thông tin về các Hạ nghị sĩ Hoa K
 ## **Mô tả**
 Dữ liệu `BirdNest.csv` chứa thông tin về các loài chim, với các cột:
 
-* **Species**: tên khoa học của loài chim  
-* **Common**: tên thường gọi  
-* **Page**: số trang trong sách tham khảo  
-* **Length**: chiều dài cơ thể (cm)  
-* **Nesttype**: loại tổ (ví dụ: cup, cavity)  
-* **Location**: vị trí làm tổ (ví dụ: decid, bridge)  
-* **No.eggs**: số trứng trung bình trong mỗi tổ  
-* **Color**: màu sắc trứng (mã số)  
-* **Incubate**: thời gian ấp trứng (ngày)  
-* **Nestling**: thời gian nuôi chim non trong tổ (ngày)  
-* **Totcare**: tổng thời gian chăm sóc con non (ngày)  
-* **Closed.**: chỉ số tổ có che hay không (0 = mở, 1 = đóng)  
+* **Species**: tên khoa học của loài chim
+* **Common**: tên thường gọi
+* **Page**: số trang trong sách tham khảo
+* **Length**: chiều dài cơ thể (cm)
+* **Nesttype**: loại tổ (ví dụ: cup, cavity)
+* **Location**: vị trí làm tổ (ví dụ: decid, bridge)
+* **No.eggs**: số trứng trung bình trong mỗi tổ
+* **Color**: màu sắc trứng (mã số)
+* **Incubate**: thời gian ấp trứng (ngày)
+* **Nestling**: thời gian nuôi chim non trong tổ (ngày)
+* **Totcare**: tổng thời gian chăm sóc con non (ngày)
+* **Closed.**: chỉ số tổ có che hay không (0 = mở, 1 = đóng)
 
 ---
 
 ## **Được sử dụng trong bài**
 * [Exercise 4 - Bài 6](../Exercises/Exercise4/Exercise4.md)
 
---- 
+---
 
 # **Bộ dữ liệu: `iris`**
-
----
 
 ## **Mô tả**
 Dữ liệu `iris` chứa thông tin về các mẫu hoa thuộc 3 loài Iris, với các cột:
 
-* **Sepal.Length**: chiều dài đài hoa (cm)  
-* **Sepal.Width**: chiều rộng đài hoa (cm)  
-* **Petal.Length**: chiều dài cánh hoa (cm)  
-* **Petal.Width**: chiều rộng cánh hoa (cm)  
-* **Species**: loài hoa (`setosa`, `versicolor`, `virginica`)  
+* **Sepal.Length**: chiều dài đài hoa (cm)
+* **Sepal.Width**: chiều rộng đài hoa (cm)
+* **Petal.Length**: chiều dài cánh hoa (cm)
+* **Petal.Width**: chiều rộng cánh hoa (cm)
+* **Species**: loài hoa (`setosa`, `versicolor`, `virginica`)
 
 ---
 
 ## **Được sử dụng trong bài**
 * [Exercise 4 - Bài 9](../Exercises/Exercise4/Exercise4.md)
 
----
 
---- 
+---
 
 # **Bộ dữ liệu: ``**
 
