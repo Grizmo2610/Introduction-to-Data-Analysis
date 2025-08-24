@@ -39,7 +39,7 @@ Toàn bộ mã nguồn và notebook được lưu trong các thư mục chính:
 * 📊 **Data:**
 
   * Chứa các file dữ liệu sử dụng trong các bài học và bài tập.
-  * Có file `.md` hướng dẫn mô tả dữ liệu.
+  * Có file `.md` hướng dẫn mô tả dữ liệu. Toàn bộ các dữ liệu được sử dụng sẽ được mô tả tại đây (Kể cả các dữ liệu có sẵn trong R)
 
 ---
 

@@ -110,8 +110,6 @@ Dữ liệu `melb_data.csv` chứa thông tin về giá nhà và đặc tính c�
 
 # **Bộ dữ liệu: `AHCAvote2017.csv`**
 
----
-
 ## **Mô tả**
 
 Dữ liệu `AHCAvote2017.csv` chứa thông tin về các Hạ nghị sĩ Hoa Kỳ và kết quả bỏ phiếu cho Đạo luật Chăm sóc Sức khỏe Mỹ năm 2017, với các cột:
@@ -132,15 +130,35 @@ Dữ liệu `AHCAvote2017.csv` chứa thông tin về các Hạ nghị sĩ Hoa K
 
 ## **Được sử dụng trong bài**
 
-* [Exercise 4 - Bài 6](../Chapters/Chapter4.ipynb)
-
-
+* [Exercise 4 - Bài 6](../Exercises/Exercise4/Exercise4.md)
 
 ---
+
+# **Bộ dữ liệu: `Birds.csv`**
+## **Mô tả**
+Dữ liệu `Birds.csv` chứa thông tin về các loài chim, với các cột:
+
+* **Species**: tên khoa học của loài chim  
+* **Common**: tên thường gọi  
+* **Page**: số trang trong sách tham khảo  
+* **Length**: chiều dài cơ thể (cm)  
+* **Nesttype**: loại tổ (ví dụ: cup, cavity)  
+* **Location**: vị trí làm tổ (ví dụ: decid, bridge)  
+* **No.eggs**: số trứng trung bình trong mỗi tổ  
+* **Color**: màu sắc trứng (mã số)  
+* **Incubate**: thời gian ấp trứng (ngày)  
+* **Nestling**: thời gian nuôi chim non trong tổ (ngày)  
+* **Totcare**: tổng thời gian chăm sóc con non (ngày)  
+* **Closed.**: chỉ số tổ có che hay không (0 = mở, 1 = đóng)  
+
+---
+
+## **Được sử dụng trong bài**
+* [Exercise 4 - Bài 8](../Exercises/Exercise4/Exercise4.md)
+
+--- 
 
 # **Bộ dữ liệu: ``**
-
----
 
 ## **Mô tả**
 Dữ liệu `` chứa thông tin:
