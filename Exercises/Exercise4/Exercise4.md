@@ -70,6 +70,11 @@ gender <- sample(c("Nam", "Nữ"), 1000, replace = TRUE)
    * Trích xuất các căn giá có giá rẻ nhất trong các khu vực (`Regionname`)
    * 
 
+6. Từ dữ liệu `AHCAvote2017` trong Gói `Stat2Data`
+   * Hãy tìm số thành viên của quốc hội theo từng bang
+   * Xây dựng bảng tần số giữa kết quả phiếu bầu đạo luật này (`AHCVote`) với kết quả bầu tổng thống Trump trước đó
+   * Hãy tìm tổng số thành viên theo đảng Dân chủ (`Democrat`) và đảng Cộng hòa (`Republican`)
+   * Hãy tìm khu vực có tỷ lệ người dân không có bảo hiểm y tế ít nhất và nhiều nhất năm 2013 và 2015
 
 ---
 

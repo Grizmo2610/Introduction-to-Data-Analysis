@@ -41,7 +41,7 @@ Dữ liệu `WHO1.xlsx` chứa thông tin các quốc gia với các cột:
 
 ## **Được sử dụng trong bài**
 * [Chapter 4 - Nhập xuất dữ liệu](../Chapters/Chapter4.ipynb#nhập-xuất-dữ-liệu)
-* [Exercise 4 - Bài 7, 8, 9](../Exercises/Exercise4/Exercise4.md)
+* [Exercise 4 - Bài 7](../Exercises/Exercise4/Exercise4.md)
 
 
 ---
@@ -108,16 +108,32 @@ Dữ liệu `melb_data.csv` chứa thông tin về giá nhà và đặc tính c�
 
 ---
 
-# **Bộ dữ liệu: `.csv`**
+# **Bộ dữ liệu: `AHCAvote2017.csv`**
 
 ---
 
 ## **Mô tả**
-Dữ liệu `.csv` chứa thông tin:
+
+Dữ liệu `AHCAvote2017.csv` chứa thông tin về các Hạ nghị sĩ Hoa Kỳ và kết quả bỏ phiếu cho Đạo luật Chăm sóc Sức khỏe Mỹ năm 2017, với các cột:
+
+* **STATE**: Tên bang
+* **Dist**: Mã số đơn vị bầu cử (district)
+* **Party**: Đảng phái của nghị sĩ (`R` = Cộng hòa, `D` = Dân chủ)
+* **Dem**: Chỉ báo nghị sĩ thuộc Đảng Dân chủ (0 = Không, 1 = Có)
+* **Rep**: Chỉ báo nghị sĩ thuộc Đảng Cộng hòa (0 = Không, 1 = Có)
+* **uni2013**: Tỉ lệ không có bảo hiểm y tế tại đơn vị năm 2013
+* **uni2015**: Tỉ lệ không có bảo hiểm y tế tại đơn vị năm 2015
+* **uniChange**: Mức thay đổi tỉ lệ không có bảo hiểm y tế giữa 2013 và 2015
+* **Member**: Tên nghị sĩ
+* **AHCAvote**: Lá phiếu đối với AHCA (1 = Ủng hộ, 0 = Chống)
+* **Trump**: Tỉ lệ phiếu bầu cho Donald Trump tại đơn vị trong bầu cử Tổng thống 2016
 
 ---
 
 ## **Được sử dụng trong bài**
+
+* [Exercise 4 - Bài 6](../Chapters/Chapter4.ipynb)
+
 
 
 ---
