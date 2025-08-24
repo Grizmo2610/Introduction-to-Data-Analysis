@@ -79,9 +79,9 @@ Toàn bộ mã nguồn và notebook được lưu trong các thư mục chính:
 
 ### Chương 4 - [Chapter 4](Chapters/Chapter4.ipynb): Làm việc với dữ liệu trong R
 
-### Chương 4 - [Chapter 5](#): Xử lý dữ liệu nâng cao trong R
+### Chương 5 - [Chapter 5](#): Xử lý dữ liệu nâng cao trong R
 
-### Chương 5 - [Chapter 6](#): Graph và Chart - Trực quan hóa dữ liệu trong R
+### Chương 6 - [Chapter 6](#): Graph và Chart - Trực quan hóa dữ liệu trong R
 
 ---
 
