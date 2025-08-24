@@ -72,10 +72,11 @@ gender <- sample(c("Nam", "Nữ"), 1000, replace = TRUE)
    * Thay thế dữ liệu NA ở cột `BuildingArea` bằng giá trị trung bình và cột `YearBuilt` bằng giá trị ngẫu nhiên theo phân bố đều với `min` và `max` của cột `YearBuilt` (Làm tròn thành số nguyên)
    * Trích xuất các căn giá có giá rẻ nhất trong các khu vực (`Regionname`)
 
-6. Từ dữ liệu **AHCAvote2017** trong Gói `Stat2Data`
-   * Hãy tìm số thành viên của quốc hội theo từng bang
-   * Hãy tìm tổng số thành viên theo đảng Dân chủ (`Democrat`) và đảng Cộng hòa (`Republican`)
-   * Hãy tìm khu vực (`STATE`) có tỷ lệ người dân không có bảo hiểm y tế ít nhất và nhiều nhất năm 2013 và 2015 (Mỗi dòng tương ứng với 1 đơn vị. Tất cả các dòng có chung giá trị `STATE` được tính là 1 khu vực. Tỷ lệ khu vực ở đây sẽ là trung bình giữa các đơn vị)
+6. Từ dữ liệu **BirdNest** trong `Stat2Data`:
+   * Xây dựng bảng tần số về số loài chim theo từng loại tổ (`Nesttype`)
+   * Loài chim nào có chiều dài trung bình lớn nhất, nhỏ nhất?
+   * Xây dựng bảng tần số về vị trí làm tổ của các loài chim
+   * Hãy tính thời gian trung bình các loài chim này chăm sóc chim non trong tổ
 
 ---
 
@@ -96,8 +97,13 @@ gender <- sample(c("Nam", "Nữ"), 1000, replace = TRUE)
 | Thu nhập cao            | ≥ 14.006        | Quốc gia phát triển      |
 |-------------------------|-----------------|--------------------------|
 
-8. Từ dữ liệu **BirdNest** trong `Stat2Data`:
-   * Xây dựng bảng tần số về số loài chim theo từng loại tổ (`Nesttype`)
-   * Loài chim nào có chiều dài trung bình lớn nhất, nhỏ nhất?
-   * Xây dựng bảng tần số về vị trí làm tổ của các loài chim
-   * Hãy tính thời gian trung bình các loài chim này chăm sóc chim non trong tổ
+8. Từ dữ liệu **AHCAvote2017** trong Gói `Stat2Data`
+   * Hãy tìm số thành viên của quốc hội theo từng bang
+   * Hãy tìm tổng số thành viên theo đảng Dân chủ (`Democrat`) và đảng Cộng hòa (`Republican`)
+   * Hãy tìm khu vực (`STATE`) có tỷ lệ người dân không có bảo hiểm y tế ít nhất và nhiều nhất năm 2013 và 2015 (Mỗi dòng tương ứng với 1 đơn vị. Tất cả các dòng có chung giá trị `STATE` được tính là 1 khu vực. Tỷ lệ khu vực ở đây sẽ là trung bình giữa các đơn vị)
+
+9. Từ dữ liệu **`iris`** trong R
+
+* Hãy trích ra tất cả các mẫu hoa có `Sepal.Length > 5` và thuộc loài `versicolor`
+* Hãy sắp xếp toàn bộ dữ liệu theo `Petal.Length` giảm dần, trong mỗi giá trị bằng nhau sắp xếp theo `Sepal.Width` tăng dần
+* Tính trung bình `Petal.Length` và `Petal.Width` theo từng loài (`Species`) và xác định loài có `Petal.Length` trung bình lớn nhất

@@ -130,7 +130,7 @@ Dữ liệu `AHCAvote2017.csv` chứa thông tin về các Hạ nghị sĩ Hoa K
 
 ## **Được sử dụng trong bài**
 
-* [Exercise 4 - Bài 6](../Exercises/Exercise4/Exercise4.md)
+* [Exercise 4 - Bài 8](../Exercises/Exercise4/Exercise4.md)
 
 ---
 
@@ -154,7 +154,29 @@ Dữ liệu `BirdNest.csv` chứa thông tin về các loài chim, với các c�
 ---
 
 ## **Được sử dụng trong bài**
-* [Exercise 4 - Bài 8](../Exercises/Exercise4/Exercise4.md)
+* [Exercise 4 - Bài 6](../Exercises/Exercise4/Exercise4.md)
+
+--- 
+
+# **Bộ dữ liệu: `iris`**
+
+---
+
+## **Mô tả**
+Dữ liệu `iris` chứa thông tin về các mẫu hoa thuộc 3 loài Iris, với các cột:
+
+* **Sepal.Length**: chiều dài đài hoa (cm)  
+* **Sepal.Width**: chiều rộng đài hoa (cm)  
+* **Petal.Length**: chiều dài cánh hoa (cm)  
+* **Petal.Width**: chiều rộng cánh hoa (cm)  
+* **Species**: loài hoa (`setosa`, `versicolor`, `virginica`)  
+
+---
+
+## **Được sử dụng trong bài**
+* [Exercise 4 - Bài 9](../Exercises/Exercise4/Exercise4.md)
+
+---
 
 --- 
 
